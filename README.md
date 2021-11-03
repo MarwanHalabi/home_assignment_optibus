@@ -25,3 +25,7 @@ start time, and Break stop name.
 - at least two events in each duty before the first service trip (first event type: pre trip , pullout or taxi)
 - at least one event in each duty after the last service trip (last event: pull in or taxi + more)
 - split starts of: depot_pull_in or taxi
+
+### notes:
+- mock data is for testing only
+- testing file provided
