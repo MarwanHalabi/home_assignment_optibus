@@ -20,6 +20,14 @@ duty
 - Modify the previous report and add the following columns: Break duration (in minutes), Break
 start time, and Break stop name.
 
+# files description
+- parse_model: model that includes all the parsing function created and needed
+- step_one: using the "parse_model" print step one
+- step_two: using the "parse_model" print step two
+- step_three: using the "parse_model" print step three
+- test_parse_model: testings for parse_model functions
+- mock_data: data file for test purposes
+
 ## my assumptions:
 - data set is valid
 - at least two events in each duty before the first service trip (first event type: pre trip , pullout or taxi)
