@@ -1,9 +1,3 @@
-# assumptions:
-#   1)data set is valid
-#   2)at least two events in each duty before the first service trip (first event type: pre trip , pullout or taxi)
-#   3)at least one event in each duty after the last service trip (last event: pull in or taxi + more)
-#   4)split starts of: depot_pull_in or taxi
-
 
 def find_vehicle_events(vehicles, vehicle_id):  # given vehicle id returns that vehicle events
     for vehicle in vehicles:
